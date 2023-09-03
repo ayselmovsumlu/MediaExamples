@@ -7,4 +7,9 @@ body {
   width: 150px;
   height: 150px;
   border: 1px solid #224924;
+  transition: 2s;
+}
+#demo .minibox:hover {
+  width: 250px;
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
