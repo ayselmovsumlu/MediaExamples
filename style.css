@@ -4,12 +4,15 @@ body {
 }
 
 #demo .minibox {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 300px;
   border: 1px solid #224924;
-  transition: 2s;
 }
-#demo .minibox:hover {
-  width: 250px;
-  font-size: 30px;
+@media screen and (max-width: 1000px) {
+  #demo .minibox {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #904aa7;
+    font-size: 35px;
+  }
 }/*# sourceMappingURL=style.css.map */
