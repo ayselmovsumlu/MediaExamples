@@ -15,4 +15,19 @@ body {
     border: 5px solid #904aa7;
     font-size: 35px;
   }
+}
+
+#demo2 {
+  padding: 60px 0;
+}
+#demo2 .btn {
+  font-size: 18px;
+  padding: 15px 20px;
+  margin: 0 10px;
+  color: white;
+  background-color: #6e3d1b;
+  opacity: 0.3;
+}
+#demo2 .btn:hover {
+  opacity: 0.9;
 }/*# sourceMappingURL=style.css.map */
