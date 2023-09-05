@@ -2,10 +2,13 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
+body section {
+  padding: 70px;
+}
 
 #demo .minibox {
-  width: 350px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border: 1px solid #224924;
 }
 @media screen and (max-width: 1000px) {
@@ -17,9 +20,6 @@ body {
   }
 }
 
-#demo2 {
-  padding: 60px 0;
-}
 #demo2 .btn {
   font-size: 18px;
   padding: 15px 20px;
@@ -30,4 +30,68 @@ body {
 }
 #demo2 .btn:hover {
   opacity: 0.9;
+}
+#demo2 .box {
+  position: relative;
+}
+#demo2 input {
+  border: 3px solid #474747;
+  border-radius: 15px;
+  width: 200px;
+  margin: 50px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+#demo3 .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #224924;
+  transition: 2s;
+}
+#demo3 .minibox:hover {
+  width: 250px;
+  font-size: 30px;
+  background-color: #3be3e0;
+}
+
+#demo4 .box {
+  position: relative;
+}
+#demo4 .minibox {
+  height: 200px;
+  border-radius: 5px;
+}
+#demo4 .green {
+  position: absolute;
+  background-color: #55a154;
+  width: 600px;
+  z-index: 1;
+}
+#demo4 .red {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+  background-color: #b6554c;
+  width: 400px;
+}
+#demo4 .gray {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  z-index: 4;
+  background-color: #6e707c;
+  width: 250px;
+}
+@media screen and (max-width: 1400px) {
+  #demo4 .green {
+    z-index: 5;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #demo4 .red {
+    z-index: 5;
+  }
 }/*# sourceMappingURL=style.css.map */

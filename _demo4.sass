@@ -1,0 +1,32 @@
+#demo4
+    .box
+        position: relative
+    .minibox
+        height: 200px
+        border-radius: 5px
+    .green
+        position: absolute
+        background-color: #55a154
+        width: 600px
+        z-index: 1
+
+    .red
+        position: absolute
+        top: 40px
+        left: 40px
+        z-index: 2
+        background-color: #b6554c
+        width: 400px
+    .gray
+        position: absolute
+        top: 80px
+        left: 60px
+        z-index: 4
+        background-color: #6e707c
+        width: 250px
+    @media screen and ( max-width: 1400px )
+        .green
+            z-index: 5
+    @media screen and ( max-width: 1000px )
+        .red
+            z-index: 5 
