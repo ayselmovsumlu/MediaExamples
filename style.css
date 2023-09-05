@@ -3,7 +3,7 @@ body {
   font-weight: 500;
 }
 body section {
-  padding: 70px;
+  padding: 70px 0;
 }
 
 #demo .minibox {
@@ -56,11 +56,15 @@ body section {
   background-color: #3be3e0;
 }
 
+#demo4 {
+  padding: 90px 0;
+}
 #demo4 .box {
+  margin: 50px 0;
   position: relative;
 }
 #demo4 .minibox {
-  height: 200px;
+  height: 120px;
   border-radius: 5px;
 }
 #demo4 .green {
@@ -71,7 +75,6 @@ body section {
 }
 #demo4 .red {
   position: absolute;
-  top: 40px;
   left: 40px;
   z-index: 2;
   background-color: #b6554c;
@@ -79,7 +82,6 @@ body section {
 }
 #demo4 .gray {
   position: absolute;
-  top: 80px;
   left: 60px;
   z-index: 4;
   background-color: #6e707c;
@@ -93,5 +95,35 @@ body section {
 @media screen and (max-width: 1000px) {
   #demo4 .red {
     z-index: 5;
+  }
+}
+
+#demo5 .minibox {
+  width: 120px;
+  height: 120px;
+}
+#demo5 .black {
+  background-color: #040404;
+}
+#demo5 .ylw {
+  background-color: #fff708;
+}
+#demo5 .orange {
+  background-color: #ec6f0f;
+}
+#demo5 .blue {
+  background-color: #2b81bf;
+}
+#demo5 .pink {
+  background-color: #c34cb3;
+}
+@media screen and (min-width: 800px) {
+  #demo5 .black {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #demo5 .orange {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
