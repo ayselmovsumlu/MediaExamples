@@ -10,13 +10,15 @@ body section {
   width: 200px;
   height: 200px;
   border: 1px solid #224924;
+  font-size: 45px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   #demo .minibox {
     width: 150px;
     height: 150px;
     border: 5px solid #904aa7;
-    font-size: 35px;
+    font-size: 60px;
+    border-radius: 15px;
   }
 }
 
@@ -48,12 +50,13 @@ body section {
   width: 100px;
   height: 100px;
   border: 1px solid #224924;
-  transition: 2s;
+  background-color: #25a3dd;
+  transition: 3s;
 }
 #demo3 .minibox:hover {
   width: 250px;
-  font-size: 30px;
-  background-color: #3be3e0;
+  font-size: 45px;
+  background-color: #2b5cce;
 }
 
 #demo4 {
@@ -101,29 +104,13 @@ body section {
 #demo5 .minibox {
   width: 120px;
   height: 120px;
+  margin: 10px 0;
+  border: 5px solid #5b1d2a;
+  border-radius: 25px;
+  font-size: 45px;
+  transition: 3s;
 }
-#demo5 .black {
-  background-color: #040404;
-}
-#demo5 .ylw {
-  background-color: #fff708;
-}
-#demo5 .orange {
-  background-color: #ec6f0f;
-}
-#demo5 .blue {
-  background-color: #2b81bf;
-}
-#demo5 .pink {
-  background-color: #c34cb3;
-}
-@media screen and (min-width: 800px) {
-  #demo5 .black {
-    display: none;
-  }
-}
-@media screen and (min-width: 1000px) {
-  #demo5 .orange {
-    display: none;
-  }
+#demo5 .minibox:hover {
+  width: 250px;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
