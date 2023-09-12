@@ -7,12 +7,12 @@ body section {
 }
 
 #demo .minibox {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border: 1px solid #224924;
   font-size: 45px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   #demo .minibox {
     width: 150px;
     height: 150px;
@@ -113,4 +113,21 @@ body section {
 #demo5 .minibox:hover {
   width: 250px;
   font-size: 15px;
+}
+#demo5 .textbox {
+  border: 2px solid #434242;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+#demo5 .textbox h4 {
+  color: #22b030;
+  font-size: 40px;
+  font-weight: 600;
+  transition: 2s;
+}
+#demo5 .textbox h4:hover {
+  font-size: 65px;
+  color: #962626;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
