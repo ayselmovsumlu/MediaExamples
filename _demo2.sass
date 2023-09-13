@@ -1,20 +1,28 @@
 #demo2
+    h3
+        font-size: 25px
+        font-weight: 700
     .btn
-        font-size: 18px
         padding: 15px 20px
         margin: 0 10px
-        color: #ffff
-        background-color: #6e3d1b
+        color: #ffffff
+        background-color: #392361
         opacity: 0.3
         &:hover
             opacity: 0.9
     .box
-        position: relative        
+        position: relative
     input
         border: 3px solid #474747
-        border-radius: 15px 
+        border-radius: 15px
         width: 200px
         margin: 50px
-        position: absolute 
+        position: absolute
         top: 40px
         left: 50px
+    @media screen and ( max-width: 1000px )
+        .btn
+            background-color: #ffff
+            color: #392361
+            border: 2px solid #392361
+            opacity: 0.9 
