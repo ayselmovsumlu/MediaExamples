@@ -3,7 +3,7 @@ body {
   font-weight: 500;
 }
 body section {
-  padding: 70px 0;
+  padding: 80px 0;
 }
 
 #demo .minibox {
@@ -120,33 +120,69 @@ body section {
 
 #demo5 .minibox {
   width: 120px;
-  height: 120px;
-  margin: 10px 0;
-  border: 5px solid #5b1d2a;
+  height: 100px;
+  margin-right: 15px;
   border-radius: 25px;
-  font-size: 45px;
+  color: white;
+  padding: 25px;
+}
+#demo5 .minibox h2 {
+  font-size: 30px;
+  font-weight: 700;
   transition: 3s;
 }
-#demo5 .minibox:hover {
-  width: 250px;
-  font-size: 15px;
+#demo5 .minibox h2:hover {
+  display: none;
 }
-#demo5 .textbox {
+#demo5 .rd {
+  background-color: #9b4444;
+}
+#demo5 .grn {
+  background-color: #449b50;
+}
+#demo5 .abc {
+  background-color: #447f9b;
+}
+#demo5 .ylw {
+  background-color: #dde00b;
+}
+@media screen and (max-width: 1100px) {
+  #demo5 .grn, #demo5 .ylw {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  #demo5 .minibox {
+    background-color: #447f9b;
+  }
+}
+
+#demo6 .textbox {
   border-radius: 15px;
   padding: 10px;
+  margin: 50px 0;
   width: 200px;
   height: 280px;
   background-color: #4b737a;
 }
-#demo5 .textbox h4 {
+#demo6 .textbox h4 {
   color: white;
   font-size: 40px;
   font-weight: 600;
   margin: 15px 0;
   transition: 2s;
 }
-#demo5 .textbox h4:hover {
+#demo6 .textbox h4:hover {
   font-size: 65px;
   color: #ffffff;
   font-weight: 700;
+}
+@media screen and (max-width: 1000px) {
+  #demo6 .textbox {
+    display: flex;
+    width: 500px;
+  }
+  #demo6 .textbox h4 {
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
