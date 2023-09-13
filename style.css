@@ -80,41 +80,58 @@ body section {
   padding: 90px 0;
 }
 #demo4 .box {
-  margin: 50px 0;
-  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #8397c8;
+  transition: 3s;
+}
+#demo4 .box:hover {
+  width: 250px;
+  height: 250px;
 }
 #demo4 .minibox {
-  height: 120px;
-  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: #91cdc6;
+  transition: 3s;
 }
-#demo4 .green {
-  position: absolute;
-  background-color: #55a154;
-  width: 600px;
-  z-index: 1;
+#demo4 .minibox:hover {
+  width: 110px;
+  height: 110px;
+  border-radius: 50px;
 }
-#demo4 .red {
-  position: absolute;
-  left: 40px;
-  z-index: 2;
-  background-color: #b6554c;
-  width: 400px;
+#demo4 .textbox {
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  border-radius: 50px;
+  background-color: #185b55;
+  transition: 3s;
 }
-#demo4 .gray {
-  position: absolute;
-  left: 60px;
-  z-index: 4;
-  background-color: #6e707c;
-  width: 250px;
+#demo4 .textbox:hover {
+  border-radius: 15px;
 }
-@media screen and (max-width: 1400px) {
-  #demo4 .green {
-    z-index: 5;
+@media screen and (max-width: 1100px) {
+  #demo4 .box {
+    background-color: #f9f9f9;
+    border: 2px solid #204947;
   }
 }
-@media screen and (max-width: 1000px) {
-  #demo4 .red {
-    z-index: 5;
+@media screen and (max-width: 950px) {
+  #demo4 .minibox {
+    background-color: #72a9cb;
+  }
+  #demo4 .textbox {
+    background-color: #214358;
+  }
+}
+@media screen and (max-width: 750px) {
+  #demo4 .textbox {
+    display: none;
   }
 }
 
@@ -181,6 +198,7 @@ body section {
   #demo6 .textbox {
     display: flex;
     width: 500px;
+    height: 100px;
   }
   #demo6 .textbox h4 {
     margin-left: 20px;
