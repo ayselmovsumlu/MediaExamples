@@ -2,14 +2,26 @@
     .minibox
         width: 100px
         height: 100px
-        padding: 10px
-        margin: 5px 0
+        padding: 20px 
+        margin-bottom: 10px  
         border: 1px solid #224924
         background-color: #60c486
+        border-radius: 50px
         transition: 3s
         &:hover
-            width: 200px
+            width: 250px
             font-size: 45px
             background-color: #164d1f
-            border-radius: 20px
             color: #ffff
+    @media screen and ( max-width: 800px )
+        .box
+            display: flex
+        .minibox
+            border: none 
+            width: 200px
+            height: 50px
+            color: #ffff
+            font-weight: 700 
+            font-size: 25px 
+            padding: 15px 
+            margin: 10px
